@@ -1,5 +1,5 @@
 Name:           zchunk
-Version:        1.1.15
+Version:        1.2.1
 Release:        1
 Summary:        Compressed file format that allows easy deltas
 License:        BSD-2
@@ -72,5 +72,8 @@ install contrib/gen_xml_dictionary %{buildroot}%{_libexecdir}/zck_gen_xml_dictio
 %{_includedir}/zck.h
 
 %changelog
+* Fri Mar 25 2022 Jiacheng Zhou <jchzhou@outlook.com> - 1.2.1-1
+- Upgrade to 1.2.1
+
 * Wed Jan 5 2022 duyiwei <duyiwei@kylinos.cn> - 1.1.15-1
 - Package init
